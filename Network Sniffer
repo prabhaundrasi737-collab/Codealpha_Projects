@@ -1,1 +1,21 @@
+@@ -1 +1,19 @@
+# NetworkSniffer
+# NetworkSniffer
+Advanced Network Packet Sniffer
 
+A Python-based network packet sniffer built using Scapy that captures and analyzes live network traffic in real-time. This project logs packet details such as IP addresses, protocol types, ports, and payload data.
+
+🚀 Features
+📥 Capture live network packets
+🌐 Extract Source & Destination IP addresses
+🔢 Identify protocol types (TCP, UDP, ICMP, Others)
+🔌 Display port information for TCP/UDP
+📦 View partial payload data
+🕒 Timestamp each packet
+📝 Save logs to a file (packet_log.txt)
+📊 Count total packets captured
+🛠️ Technologies Used
+Python 3
+Scapy Library
+Socket Programming
+Datetime Module
